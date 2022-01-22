@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    //싱글톤
     private static GameManager _instance;
 
     public static GameManager Instance
@@ -28,7 +29,14 @@ public class GameManager : MonoBehaviour
     private Text scoreTxt;
 
     private Text askStart;
-    private GameObject panel;
+    
+    [SerializeField]
+    private GameObject Panel;
+    
+    [SerializeField]
+    private GameObject GameOverPanel;
+
+
 
     void Start()
     {
@@ -43,26 +51,30 @@ public class GameManager : MonoBehaviour
     public void GameStart()
     {
         stopTrigger = true;
-
+        ScoreManager.Instance.currentScore = 0; //게임 시작 시 현재 점수 0으로 초기화
         StartCoroutine(CreateEenemyRoutine());
-        panel.SetActive(false);
+        Panel.SetActive(false);     //게임 시작 시 패널 비활성화
     }
 
-    private bool stopTrigger = true;
+    public bool stopTrigger = true;
 
     public void GameOver()
     {
+        GameOverPanel.SetActive(true);
         stopTrigger = false;
         StopCoroutine(CreateEenemyRoutine());
+        StartCoroutine(GameOverPanelDisabled(3.0f));    //게임오버 패널 3초 후 사라짐
+        Panel.SetActive(true);
 
     }
 
-    public void Score()
+
+    IEnumerator GameOverPanelDisabled(float waitTime)
     {
-        score++;
-        Debug.Log("score : " + score);
-        scoreTxt.text = "현재 점수 : " + score;
+        yield return new WaitForSeconds(waitTime);
+        GameOverPanel.SetActive(false);
     }
+
 
     IEnumerator CreateEenemyRoutine()
     {
