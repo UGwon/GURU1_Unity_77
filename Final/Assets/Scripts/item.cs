@@ -31,15 +31,14 @@ public class item : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")   //빗방울 플레이어와 충돌 시
         {
-            GameManager.Instance.GameOver();
-            Destroy(this.gameObject);  //빗방울 제거
+            
            
 
         }
 
         if (other.gameObject.tag == "Ground")       //빗방울 ground와 충돌 시
         {
-            ScoreManager.Instance.Score++;    //빗방울 ground와 충돌 할 때 마다 점수 표시
+            
 
             Destroy(this.gameObject);  //빗방울 제거
 
