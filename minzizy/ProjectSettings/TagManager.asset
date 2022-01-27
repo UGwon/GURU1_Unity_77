@@ -14,10 +14,10 @@ TagManager:
   - UI
   - components
   - 
-  - 
-  - 
-  - 
-  - 
+  - ground
+  - player
+  - enemy
+  - item
   - 
   - 
   - 
@@ -41,4 +41,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 2652317733
+    locked: 0
+  - name: obj
+    uniqueID: 3381218445
+    locked: 0
+  - name: New Layer
+    uniqueID: 1562118835
     locked: 0

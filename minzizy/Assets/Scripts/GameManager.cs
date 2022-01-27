@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -20,9 +22,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
     [SerializeField]
     private GameObject Enemy;
-
     private int score;
 
     [SerializeField]
@@ -36,6 +38,13 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject GameOverPanel;
 
+    public GameObject background1;
+    public GameObject background2;
+    public GameObject background3;
+
+    public GameObject SendScoreObject;
+    public GameObject Score;
+
     void Start()
     {
     }
@@ -43,15 +52,19 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        CheckingScore();    //점수 도달 시 배경 전환 위해 점수 체킹중
     }
 
     public void GameStart()
     {
         stopTrigger = true;
+        background3.SetActive(false);
+        background1.SetActive(true);
         ScoreManager.Instance.currentScore = 0; //게임 시작 시 현재 점수 0으로 초기화
         StartCoroutine(CreateEenemyRoutine());
         Panel.SetActive(false);     //게임 시작 시 패널 비활성화
+
+
     }
 
     public bool stopTrigger = true;
@@ -61,7 +74,11 @@ public class GameManager : MonoBehaviour
         GameOverPanel.SetActive(true);
         stopTrigger = false;
         StopCoroutine(CreateEenemyRoutine());
-        StartCoroutine(GameOverPanelDisabled(3.0f));    //게임오버 패널 3초 후 사라짐
+        StartCoroutine(GameOverPanelDisabled(2.0f));    //게임오버 패널 3초 후 사라짐
+        Score = GameObject.Find("ScoreManager");
+        Score.GetComponent<ScoreManager>().setScore();
+        SceneManager.LoadScene("RankingScene");
+        DontDestroyOnLoad(SendScoreObject);
         Panel.SetActive(true);
 
     }
@@ -89,4 +106,24 @@ public class GameManager : MonoBehaviour
         pos.z = 0.0f;
         Instantiate(Enemy, pos, Quaternion.identity);
     }
+
+
+   
+    public void CheckingScore()         //일정 점수 도달 시 배경 전환
+    {
+        if (ScoreManager.Instance.currentScore == 10)
+        {
+            background1.SetActive(false);
+            background2.SetActive(true);
+        }
+        if (ScoreManager.Instance.currentScore == 20)
+        {
+            background2.SetActive(false);
+            background3.SetActive(true);
+        }
+    
+
+    }
+
+   
 }
