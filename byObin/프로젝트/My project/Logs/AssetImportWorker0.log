@@ -1,0 +1,788 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'ko' Physical Memory: 24409 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+Y:\서울여대\GURU1_unity\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+Y:/서울여대/GURU1_unity/GURU1_Unity_77/byObin/프로젝트/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50426
+Successfully changed project path to: Y:/서울여대/GURU1_unity/GURU1_Unity_77/byObin/프로젝트/My project
+Y:/서울여대/GURU1_unity/GURU1_Unity_77/byObin/프로젝트/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 75.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path Y:/서울여대/GURU1_unity/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Y:/서울여대/GURU1_unity/GURU1_Unity_77/byObin/프로젝트/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     12204 MB
+    Driver:   25.20.100.6577
+Initialize mono
+Mono path[0] = 'Y:/서울여대/GURU1_unity/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'Y:/서울여대/GURU1_unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'Y:/서울여대/GURU1_unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: Y:/서울여대/GURU1_unity/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001815 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1062ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (835ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007408 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025573D7E030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FA55CF0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025574706020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FFBDDA0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FF7AC20 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255758B4C60 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FCDD010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255753C1040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557448E240 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575D26820 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575046020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575D26820 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255758BC270 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575D26820 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255753C1040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FF8DE30 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255754F8060 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255753C1040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255743A1020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255753C1040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025574E1EC90 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255741EC010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575D37C30 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557502DA40 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025574075010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FECC030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573E0F020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025574075010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557452AC30 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FD5C3A0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FECF840 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255753C1040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025574706020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573DA4E50 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.921 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1923ms)
+		BeginReloadAssembly (235ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1597ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (543ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 5.956100 ms (FindLiveObjects: 0.360400 ms CreateObjectMapping: 0.141000 ms MarkObjects: 5.218800 ms  DeleteObjects: 0.234100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(30a25071db33b9947acd6b3738456d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(30a25071db33b9947acd6b3738456d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f754bd73613afece3bc8c24189a9308a') in 0.211061 seconds 
+  Import took 0.217473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Prefabs/slotPrefab.prefab
+  artifactKey: Guid(dca59345e00b90c4a856bfcb031f44b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/slotPrefab.prefab using Guid(dca59345e00b90c4a856bfcb031f44b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71c0f8a51b0d0097dd9b185406bab06') in 0.022521 seconds 
+  Import took 0.032550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000846 seconds.
+  path: Assets/Prefabs/cocoa.prefab
+  artifactKey: Guid(b9e38c0afe1390b4492288153460b2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cocoa.prefab using Guid(b9e38c0afe1390b4492288153460b2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba94640ddd73e5262a4fa27c64f4729f') in 0.020687 seconds 
+  Import took 0.029413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Prefabs/inslot.prefab
+  artifactKey: Guid(0d6eb6bb0d643854eba0c9abab25c2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/inslot.prefab using Guid(0d6eb6bb0d643854eba0c9abab25c2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156e6485b13f842359c5778c5d0a1556') in 0.010532 seconds 
+  Import took 0.016917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Prefabs/sun.prefab
+  artifactKey: Guid(89640c66f14fc6f49b7941e7a0badb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sun.prefab using Guid(89640c66f14fc6f49b7941e7a0badb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16cb15f077542daa7d94abede06fa12') in 0.023620 seconds 
+  Import took 0.030325 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2648.
+Total: 4.766100 ms (FindLiveObjects: 0.429900 ms CreateObjectMapping: 0.213800 ms MarkObjects: 4.100700 ms  DeleteObjects: 0.019900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.128654 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(30a25071db33b9947acd6b3738456d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(30a25071db33b9947acd6b3738456d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7772f5c992fab7576f94e2f2876b0f') in 0.020627 seconds 
+  Import took 0.026617 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013915 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025573D7E030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025579554AC0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FDDCCD0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025576F90080 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255773F1040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025574003AF0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255773F1040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025578ACB020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255739D2030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255773F1040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FCDD010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573B12960 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FDDCCD0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255773F1040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025578ACB020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255758BEB10 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025576F90080 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025578ACB020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025574075010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573DAC240 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025579578310 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025578621020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025574E20EF0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575556020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025579578310 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575556020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573E0F020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255744FD020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255746FAA20 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025576F90080 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255792AD130 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025578ACB020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FDDCCD0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255746FAA20 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1334ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1054ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2650.
+Total: 3.122700 ms (FindLiveObjects: 0.227300 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.798300 ms  DeleteObjects: 0.015700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009230 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025579819060 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025577F59D80 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FDDCCD0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255775A1030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255753B9030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255798A5010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573F7C430 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FC95040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255739D2030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255753B9030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FCDD010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573B12960 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FDDCCD0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573F7C430 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FC95040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255772EB020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255775A1030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FC95040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573D7E030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255795EE010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025577AA0060 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025578621020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255780908B0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255795EE010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025577AA0060 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025578738E40 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255782764B0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025574075010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575C38010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025577A9E690 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557946DBC0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FC95040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FDDCCD0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255744D1630 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.534 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1534ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1219ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.6 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2652.
+Total: 3.361900 ms (FindLiveObjects: 0.162500 ms CreateObjectMapping: 0.126900 ms MarkObjects: 3.053800 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 266.108891 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(320c83aa9cd8d3a4ab14568e623083a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(320c83aa9cd8d3a4ab14568e623083a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfae50b39df7100b759c38a6719307b') in 0.032343 seconds 
+  Import took 0.037651 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008123 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025575046020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025578C1D9E0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FD5D6C0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025578B326E0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557872F010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025578D0A020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557395A010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FC95040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557872F010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557872F010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255784F8160 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573B12960 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FD5D6C0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557395A010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FC95040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025577736020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575793970 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FC95040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573D7E030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575555E10 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255784D4010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025578621020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557526F060 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575555E10 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255784D4010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255741D5C30 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557827A420 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255744FD020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557872F010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255784F2D50 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025574619210 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FC95040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573945A20 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557872F010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.615 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1616ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1358ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (491ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.6 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2654.
+Total: 4.455400 ms (FindLiveObjects: 0.220600 ms CreateObjectMapping: 0.099400 ms MarkObjects: 4.077800 ms  DeleteObjects: 0.056200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37.336913 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e331b683c5ddd22cb3582ec36e61f73') in 0.027033 seconds 
+  Import took 0.033650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.143910 seconds.
+  path: Assets/images/font/PFStardust.ttf
+  artifactKey: Guid(a87f022ba0a060a448207c0aa65e55c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/font/PFStardust.ttf using Guid(a87f022ba0a060a448207c0aa65e55c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305290e516c0db57b1108877ca734e74') in 0.159711 seconds 
+  Import took 0.165182 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009911 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002557509A020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025577F57F80 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FD5D6C0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575B54080 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557872F010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255739D2030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255788F5030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FC95040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255739D2030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557872F010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255784F8160 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573B12960 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FD5D6C0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255788F5030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FC95040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255744E3030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255797F9B90 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FC95040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025573D7E030 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575555E10 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557447D530 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025578621020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255773F1090 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025575555E10 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557447D530 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255750D8020 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255782764B0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557522D450 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557928B060 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557751D080 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000255792AE5D0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FC95040 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002556FD5D6C0 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002557872F010 doesn't match image Y:\서울여대\GURU1_unity\GURU1_Unity_77\byObin\프로젝트\My project\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1277ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1038ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 99.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2694.
+Total: 3.552500 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.099900 ms MarkObjects: 3.165200 ms  DeleteObjects: 0.039400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
