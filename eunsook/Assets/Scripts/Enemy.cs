@@ -9,6 +9,9 @@ public class Enemy : MonoBehaviour
 
     private Rigidbody2D rigidbody;
 
+    public float damage = 12f;
+
+    PlayerTemp playerTemp;
 
     // Start is called before the first frame update
     void Start()
@@ -27,9 +30,12 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")   //빗방울 플레이어와 충돌 시
         {
-            GameManager.Instance.GameOver();
+            //GameManager.Instance.GameOver();
             Destroy(this.gameObject);  //빗방울 제거
-           
+
+            playerTemp = GameObject.Find("Player").GetComponent<PlayerTemp>();
+
+            playerTemp.OnDamage(damage);
 
         }
 

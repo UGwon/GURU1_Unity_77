@@ -36,7 +36,11 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject GameOverPanel;
 
-
+    public GameObject background1;
+    public GameObject background2;
+    public GameObject background3;
+    //내가 넣음
+    PlayerTemp playerTemp;
 
     void Start()
     {
@@ -45,15 +49,22 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        CheckingScore();    //점수 도달 시 배경 전환 위해 점수 체킹중
     }
 
     public void GameStart()
     {
         stopTrigger = true;
+        background3.SetActive(false);
+        background1.SetActive(true);
         ScoreManager.Instance.currentScore = 0; //게임 시작 시 현재 점수 0으로 초기화
         StartCoroutine(CreateEenemyRoutine());
         Panel.SetActive(false);     //게임 시작 시 패널 비활성화
+
+        //내가 넣음
+        playerTemp = GameObject.Find("Player").GetComponent<PlayerTemp>();
+        playerTemp.OnEnable();
+
     }
 
     public bool stopTrigger = true;
@@ -91,4 +102,24 @@ public class GameManager : MonoBehaviour
         pos.z = 0.0f;
         Instantiate(Enemy, pos, Quaternion.identity);
     }
+
+
+   
+    public void CheckingScore()         //일정 점수 도달 시 배경 전환
+    {
+        if (ScoreManager.Instance.currentScore == 10)
+        {
+            background1.SetActive(false);
+            background2.SetActive(true);
+        }
+        if (ScoreManager.Instance.currentScore == 20)
+        {
+            background2.SetActive(false);
+            background3.SetActive(true);
+        }
+    
+
+    }
+
+   
 }
