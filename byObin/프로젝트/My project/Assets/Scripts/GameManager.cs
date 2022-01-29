@@ -74,7 +74,7 @@ public class GameManager : MonoBehaviour
         GameOverPanel.SetActive(true);
         stopTrigger = false;
         StopCoroutine(CreateEenemyRoutine());
-        StartCoroutine(GameOverPanelDisabled(2.0f));    //게임오버 패널 3초 후 사라짐
+       // StartCoroutine(GameOverPanelDisabled(2.0f));    //게임오버 패널 3초 후 사라짐
         Score = GameObject.Find("ScoreManager");
         Score.GetComponent<ScoreManager>().setScore();
         //SceneManager.LoadScene("RankingScene");
@@ -84,9 +84,9 @@ public class GameManager : MonoBehaviour
     }
 
 
-    IEnumerator GameOverPanelDisabled(float waitTime)
+    public void GameOverPanelDisabled()
     {
-        yield return new WaitForSeconds(waitTime);
+        
         GameOverPanel.SetActive(false);
     }
 
