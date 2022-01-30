@@ -3,7 +3,19 @@ guid: 320c83aa9cd8d3a4ab14568e623083a0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Enemy: {instanceID: 0}
+  - scoreTxt: {instanceID: 0}
+  - Panel: {instanceID: 0}
+  - GameOverPanel: {instanceID: 0}
+  - background1: {instanceID: 0}
+  - background2: {instanceID: 0}
+  - background3: {instanceID: 0}
+  - SendScoreObject: {instanceID: 0}
+  - Score: {instanceID: 0}
+  - Cocoa: {instanceID: 0}
+  - enemyclone: {instanceID: 0}
+  - rainbowFactory: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

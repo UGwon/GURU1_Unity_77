@@ -8,6 +8,10 @@ public class ItemManager : MonoBehaviour
     public float createTime = 1;
     public GameObject itemFactory;
 
+   
+    public int timer = 10;
+   
+
 
     // Start is called before the first frame update
     void Start()
@@ -33,4 +37,6 @@ public class ItemManager : MonoBehaviour
         }
 
     }
+
+
 }

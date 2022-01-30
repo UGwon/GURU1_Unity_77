@@ -12,6 +12,9 @@ public class RankScore : MonoBehaviour
     public int r2; 
     public Text thirdScoreUI;
     public int r3;
+    public Text myScoreUI;
+    public int my;
+
     GameObject RankingManager;
     // Start is called before the first frame update
     void Start()
@@ -57,6 +60,8 @@ public class RankScore : MonoBehaviour
             thirdScoreUI.text = "3등 : " + r3;
         }
 
+        my = ScoreManager.Instance.currentScore;
+        myScoreUI.text = "나의 점수 : " + my;
     }
 
 

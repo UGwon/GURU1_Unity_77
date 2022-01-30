@@ -7,6 +7,9 @@ public class item : MonoBehaviour
     public string type;
     Rigidbody2D rigid;
     public GameObject slotItem;
+    public GameObject clearSlot;
+
+
 
     // Update is called once per frame
 
@@ -17,9 +20,14 @@ public class item : MonoBehaviour
 
     }
 
+    void Start()
+    {
+        
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")   //빗방울 플레이어와 충돌 시
+        if (other.gameObject.tag == "Player")   //해 아이템 플레이어와 충돌 시
         {
 
             Inventory inven = other.GetComponent<Inventory>();
@@ -33,18 +41,24 @@ public class item : MonoBehaviour
                     break;
                 }
             }
+            if (inven.slots[2].isEmpty == false)    //해 아이템 3개 모으면
+            {
+                print("full slot");
+                GameManager.Instance.FeverTime();
+                
+            }
 
 
-            ScoreManager.Instance.Score += 100;    //빗방울 ground와 충돌 할 때 마다 점수 표시
+            ScoreManager.Instance.Score += 100;    //해 아이템 ground와 충돌 할 때 마다 점수 표시
 
-            Destroy(this.gameObject);  //빗방울 제거
+            Destroy(this.gameObject);  //해 아이템 제거
 
         }
 
-        if (other.gameObject.tag == "Ground")       //빗방울 ground와 충돌 시
+        if (other.gameObject.tag == "Ground")       //해 아이템 ground와 충돌 시
         {
 
-            Destroy(this.gameObject);  //빗방울 제거
+            Destroy(this.gameObject);  //해 아이템 제거
 
         }
 

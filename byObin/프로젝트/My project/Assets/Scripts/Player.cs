@@ -24,20 +24,24 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        Vector3 flipMove = Vector3.zero;
-
-        if(Input.GetAxisRaw("Horizontal") <0)
+        if (GameManager.Instance.stopTrigger)
         {
-            flipMove = Vector3.left;
-            transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
+            Vector3 flipMove = Vector3.zero;
 
-        else if(Input.GetAxisRaw("Horizontal")>0)
-        {
-            flipMove = Vector3.right;
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            if (Input.GetAxisRaw("Horizontal") < 0)
+            {
+                flipMove = Vector3.left;
+                transform.localScale = new Vector3(-1f, 1f, 1f);
+            }
+
+            else if (Input.GetAxisRaw("Horizontal") > 0)
+            {
+                flipMove = Vector3.right;
+                transform.localScale = new Vector3(1f, 1f, 1f);
+            }
+            transform.position += flipMove * speed * Time.deltaTime;
         }
-        transform.position += flipMove * speed* Time.deltaTime;
+        
     }
   
     void FixedUpdate()

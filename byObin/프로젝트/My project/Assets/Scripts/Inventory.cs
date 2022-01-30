@@ -21,5 +21,11 @@ public class Inventory : MonoBehaviour
             slot.slotObj = go;
             slots.Add(slot);
         }
+        
+    }
+
+    void Update()
+    {
+        
     }
 }

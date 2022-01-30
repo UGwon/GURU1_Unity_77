@@ -34,7 +34,11 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")   //빗방울 플레이어와 충돌 시
         {
-            GameManager.Instance.GameOver();
+            if(GameManager.Instance.stopTrigger == true)
+            {
+                GameManager.Instance.GameOver();
+            }
+            
             Destroy(this.gameObject);  //빗방울 제거
            
 
@@ -47,6 +51,8 @@ public class Enemy : MonoBehaviour
             Destroy(this.gameObject);  //눈송이 제거
 
         }
+
+        
 
     }
 
