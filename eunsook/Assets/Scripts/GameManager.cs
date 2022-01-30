@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -39,7 +41,10 @@ public class GameManager : MonoBehaviour
     public GameObject background1;
     public GameObject background2;
     public GameObject background3;
-    //내가 넣음
+
+    public GameObject SendScoreObject;
+    public GameObject Score;
+
     PlayerTemp playerTemp;
 
     void Start()
@@ -61,10 +66,8 @@ public class GameManager : MonoBehaviour
         StartCoroutine(CreateEenemyRoutine());
         Panel.SetActive(false);     //게임 시작 시 패널 비활성화
 
-        //내가 넣음
         playerTemp = GameObject.Find("Player").GetComponent<PlayerTemp>();
         playerTemp.OnEnable();
-
     }
 
     public bool stopTrigger = true;
@@ -74,15 +77,19 @@ public class GameManager : MonoBehaviour
         GameOverPanel.SetActive(true);
         stopTrigger = false;
         StopCoroutine(CreateEenemyRoutine());
-        StartCoroutine(GameOverPanelDisabled(3.0f));    //게임오버 패널 3초 후 사라짐
+       // StartCoroutine(GameOverPanelDisabled(2.0f));    //게임오버 패널 3초 후 사라짐
+        Score = GameObject.Find("ScoreManager");
+        Score.GetComponent<ScoreManager>().setScore();
+        //SceneManager.LoadScene("RankingScene");
+        DontDestroyOnLoad(SendScoreObject);
         Panel.SetActive(true);
 
     }
 
 
-    IEnumerator GameOverPanelDisabled(float waitTime)
+    public void GameOverPanelDisabled()
     {
-        yield return new WaitForSeconds(waitTime);
+        
         GameOverPanel.SetActive(false);
     }
 

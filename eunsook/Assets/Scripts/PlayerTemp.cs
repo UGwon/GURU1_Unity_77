@@ -82,6 +82,21 @@ public class PlayerTemp : MonoBehaviour
 
     }
 
+    // 온도 회복
+    public void RestoreTemp(float newTemp)
+    {
+        if (dead)
+        {
+            // 이미 사망한 경우 온도를 회복할 수 없음
+            return;
+        }
+        // 온도 추가
+        temp += newTemp;
+
+        // 갱신된 온도를 온도 이미지에 반영
+        tempSlider.value = temp;
+    }
+
     // 사망 처리
     public void Die()
     {

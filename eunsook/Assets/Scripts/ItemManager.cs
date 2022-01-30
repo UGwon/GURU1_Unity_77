@@ -18,15 +18,19 @@ public class ItemManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentTime += Time.deltaTime; // 시간 흐름
-
-        if (currentTime > createTime) // 일정 시간이 되면
+        if (GameManager.Instance.stopTrigger == true)
         {
-            GameObject item = Instantiate(itemFactory);
-            item.transform.position = transform.position;
-            currentTime = 0; // 현재시간 초기화
+            currentTime += Time.deltaTime; // 시간 흐름
 
-            createTime = UnityEngine.Random.Range(10, 20); // 생성시간 다시 설정
+            if (currentTime > createTime) // 일정 시간이 되면
+            {
+                GameObject item = Instantiate(itemFactory);
+                item.transform.position = transform.position;
+                currentTime = 0; // 현재시간 초기화
+
+                createTime = UnityEngine.Random.Range(10, 20); // 생성시간 다시 설정
+            }
         }
+
     }
 }
