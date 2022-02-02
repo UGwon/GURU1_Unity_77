@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class item : MonoBehaviour
 {
-    public string type;
     Rigidbody2D rigid;
     public GameObject slotItem;
     public GameObject clearSlot;
@@ -39,8 +38,10 @@ public class item : MonoBehaviour
                     inven.slots[i].isEmpty = false;
 
                     break;
+
                 }
             }
+
             if (inven.slots[2].isEmpty == false)    //해 아이템 3개 모으면
             {
                 print("full slot");

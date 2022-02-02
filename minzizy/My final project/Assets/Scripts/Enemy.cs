@@ -9,11 +9,13 @@ public class Enemy : MonoBehaviour
 
     private Rigidbody2D rigidbody;
 
-
     public float dis;
      
     public GameObject player;
-   
+
+    public float damage = 12f; // 눈송이 대미지
+
+    PlayerTemp playerTemp;
 
     // Start is called before the first frame update
     void Start()
@@ -34,13 +36,18 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")   //빗방울 플레이어와 충돌 시
         {
-            if(GameManager.Instance.stopTrigger == true)
-            {
-                GameManager.Instance.GameOver();
-            }
-            
-            Destroy(this.gameObject);  //빗방울 제거
-           
+            /*
+             if(GameManager.Instance.stopTrigger == true)
+             {
+                 GameManager.Instance.GameOver();
+             }
+             */
+
+            playerTemp = GameObject.Find("Player").GetComponent<PlayerTemp>();
+
+            playerTemp.OnDamage(damage); // 눈송이 대미지 온도계 적용
+
+            Destroy(this.gameObject);  //눈송이 제거
 
         }
 

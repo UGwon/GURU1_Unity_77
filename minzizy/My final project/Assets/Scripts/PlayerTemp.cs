@@ -30,7 +30,7 @@ public class PlayerTemp : MonoBehaviour
     void Update()
     {
         // 추위에 노출돼서 시간이 지날수록 온도 떨어짐
-        temp -= Time.deltaTime;
+        temp -= Time.deltaTime*0.5f;
 
         // 갱신된 온도를 온도 이미지에 반영
         tempSlider.value = temp;
@@ -85,20 +85,22 @@ public class PlayerTemp : MonoBehaviour
     // 온도 회복
     public void RestoreTemp(float newTemp)
     {
-        if (dead)
+        if (temp >= 36f || dead)
         {
-            // 이미 사망한 경우 온도를 회복할 수 없음
+            // 온도가 36이상이거나 이미 사망한 경우 온도를 회복할 수 없음
             return;
         }
+
         // 온도 추가
         temp += newTemp;
+        Debug.Log("온도 회복");
 
         // 갱신된 온도를 온도 이미지에 반영
         tempSlider.value = temp;
     }
 
-    // 사망 처리
-    public void Die()
+        // 사망 처리
+        public void Die()
     {
         // 사망 상태를 참으로 변경
         dead = true;

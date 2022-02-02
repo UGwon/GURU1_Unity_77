@@ -41,9 +41,21 @@ public class Player : MonoBehaviour
             }
             transform.position += flipMove * speed * Time.deltaTime;
         }
-        
+
+        InScreen();
+
+        if (Input.GetKey(KeyCode.Space)) // 스페이스바 눌렀을때 가속
+        {
+            defaultSpeed = 6;
+        }
+        else
+        {
+            defaultSpeed = speed;
+        }
+
     }
-  
+
+  /*
     void FixedUpdate()
     {
         InScreen();
@@ -58,6 +70,8 @@ public class Player : MonoBehaviour
         }
 
     }
+  */
+  
 
     private void InScreen()     //플레이어 움직임 화면 내에서만 가능하도록
     {

@@ -29,10 +29,12 @@ public class SelectChar : MonoBehaviour
     void OnDeSelect()
     {
         sr.color = new Color(0.5f, 0.5f, 0.5f); // 어둡게 만들기
+        anim.SetBool("Hello", true);
     }
 
     void OnSelect()
     {
         sr.color = new Color(1f, 1f, 1f); // 밝게 만들기
+        anim.SetBool("Hello", false);
     }
 }

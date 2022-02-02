@@ -57,11 +57,12 @@ public class GameManager : MonoBehaviour
 
     public GameObject ClearPanel;
 
-   
+    PlayerTemp playerTemp;
 
     void Start()
     {
-         
+        playerTemp = GameObject.Find("Player").GetComponent<PlayerTemp>(); // PlayerTemp 가져옴
+        playerTemp.OnEnable(); // 게임 시작 시 온도계 리셋
     }
 
     // Update is called once per frame

@@ -9,6 +9,9 @@ public class cocoa : MonoBehaviour
 
     private Rigidbody2D rigidbody;
 
+    public float newTemp = 12f; // 코코아 마실때 체온 회복양
+
+    PlayerTemp playerTemp;
 
     // Start is called before the first frame update
     void Start()
@@ -30,13 +33,13 @@ public class cocoa : MonoBehaviour
             ScoreManager.Instance.Score += 80;
             Destroy(this.gameObject);  //코코아 제거
 
-
+            playerTemp = GameObject.Find("Player").GetComponent<PlayerTemp>();
+            playerTemp.RestoreTemp(newTemp); // 체온 회복 온도계 적용
         }
 
         if (other.gameObject.tag == "Ground")       //코코아 ground와 충돌 시
         {
             
-
             Destroy(this.gameObject);  //코코아 제거
 
         }
