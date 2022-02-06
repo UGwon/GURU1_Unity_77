@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 79ead3056170b5d44999bf803e853143
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - animator: {instanceID: 0}
+  - umbrellaClip: {fileID: 8300000, guid: 934fde44693298d4d9b9859244442367, type: 3}
+  - sunClip: {fileID: 8300000, guid: f2c08301537487f4bb0589d92687cbbb, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
